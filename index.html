@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Welcome to the website">
+        <meta name="keywords" content="HTML, CSS,">
+        <meta name="author" content="Melody K. Nwaogu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Welcome Page</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Welcome To our website</h1>
+                <p>We are excited to have you here!</p>
+            </header>
+            <h2>Create account In Our Website</h2> 
+            <label for="name">Name:<input type="text" name="name" id="name" placeholder="Enter your name"></label>
+            <label for="email">Email:<input type="text" name="email" id="email" placeholder="Enter your email" reqiured></label>
+            <label for="password">Password:<input type="password" name="password" id="password" placeholder="password" required minlength="8" maxlength="12" size="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,12}" title="Must contain at least one number and one uppercase and lowercase letter, and between 8 to 12 characters">
+                <span id="strength"></span>
+            </label>
+            <div class="parent-container">
+            <button type="submit" name="submit"><a href="https://melodykellynwaogu.github.io/G/#contact">Submit</a></button>
+            </div>
+            <footer>Thanks for Visiting</footer>
+        </div>
+    </body>
+</html>
